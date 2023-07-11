@@ -5,7 +5,7 @@ menuprincipal.forEach(function(item){
         const actualItem = document.querySelector('.active');
         actualItem.classList.remove('active');
         e.target.classList.add('active');
-        console.log("mouseover");
+    
 
     });
 });  
